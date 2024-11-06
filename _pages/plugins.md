@@ -8,7 +8,7 @@ header:
   overlay_filter: "0.5"
   actions:
     - label: "View on Fab"
-      url: "#test-link"
+      url: "https://www.fab.com/sellers/David%20Katona"
 excerpt: "Plugins crafted to streamline workflows and expand your capabilities in Unreal Engine."
 
 feature_row1:
