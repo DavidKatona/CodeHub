@@ -19,6 +19,8 @@ feature_row1:
     excerpt: 'The Event Aggregator plugin introduces the powerful Event Aggregator pattern to Unreal Engine, offering an elegant and efficient solution for inter-object communication. By decoupling event senders and receivers, it allows for modular, scalable, and highly maintainable game architecture.'
     url: "#test-link"
     btn_label: "Read More"
+    btn_class: "btn--info"
+    btn_label: "Buy on Fab"
     btn_class: "btn--primary"
 ---
 
