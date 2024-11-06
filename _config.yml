@@ -14,7 +14,6 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: CodeHub
-logo: "/assets/images/codehub-logo.png"
 email:
 description: >- # this means to ignore newlines until "baseurl:"
   A space for project showcases, plugin documentation, and developer resources.
