@@ -6,6 +6,7 @@ author_profile: false
 header:
   overlay_color: "#303030"
   overlay_filter: "0.5"
+  overlay_image: /assets/images/plugins-splash.png
   actions:
     - label: "View on Fab"
       url: "https://www.fab.com/sellers/David%20Katona"
