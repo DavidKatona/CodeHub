@@ -9,7 +9,7 @@ header:
   actions:
     - label: "View on Fab"
       url: "#test-link"
-excerpt: "Explore a collection of powerful plugins crafted to elevate your Unreal Engine projects. Streamline workflows, enhance gameplay, and unlock new creative possibilities."
+excerpt: "Plugins crafted to streamline workflows and expand your capabilities in Unreal Engine."
 
 feature_row1:
   - image_path: /assets/images/eventaggregator_thumbnail_with_text.jpg
