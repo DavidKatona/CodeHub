@@ -1,7 +1,7 @@
 ---
 title: "Plugins"
 permalink: /plugins/
-layout: single
+layout: splash
 author_profile: false
 
 feature_row1:
