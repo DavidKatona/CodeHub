@@ -1,6 +1,6 @@
 ---
 title: "Test page"
-permalink: /posts/
+permalink: /test/
 layout: home
 author_profile: true
 ---
