@@ -1,6 +1,6 @@
 ---
-title: "Guides"
-permalink: /guides/
+title: "Posts"
+permalink: /posts/
 layout: single
 author_profile: false
 ---
