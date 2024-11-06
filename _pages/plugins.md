@@ -1,5 +1,5 @@
 ---
-title: "Plugins"
+title: "Unreal Plugins"
 permalink: /plugins/
 layout: splash
 author_profile: false
