@@ -1,6 +1,6 @@
 ---
 title: "Test page"
 permalink: /test/
-layout: home
+layout: splash
 author_profile: true
 ---
