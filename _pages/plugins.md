@@ -4,7 +4,7 @@ permalink: /plugins/
 layout: splash
 author_profile: false
 header:
-  overlay_color: "#000"
+  overlay_color: "#303030"
   overlay_filter: "0.5"
   actions:
     - label: "View on Fab"
