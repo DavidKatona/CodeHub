@@ -18,10 +18,8 @@ feature_row1:
     title: "Event Aggregator"
     excerpt: 'The Event Aggregator plugin introduces the powerful Event Aggregator pattern to Unreal Engine, offering an elegant and efficient solution for inter-object communication. By decoupling event senders and receivers, it allows for modular, scalable, and highly maintainable game architecture.'
     url: "#test-link"
-    btn_label: "Read More"
+    btn_label: "Documentation"
     btn_class: "btn--info"
-    btn_label: "Buy on Fab"
-    btn_class: "btn--primary"
 ---
 
 Here, you'll find a collection of powerful, custom-built plugins for Unreal Engine, each designed to streamline development and enhance functionality. Whether you’re looking to optimize workflows, add unique gameplay mechanics, or expand Unreal’s capabilities, these plugins are crafted to integrate seamlessly into your projects. Explore the documentation, check out usage examples, and start building more efficiently.
