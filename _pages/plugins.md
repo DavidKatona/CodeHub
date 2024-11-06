@@ -3,6 +3,12 @@ title: "Plugins"
 permalink: /plugins/
 layout: splash
 author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  actions:
+    - label: "View on Fab"
+      url: "#test-link"
 
 feature_row1:
   - image_path: /assets/images/eventaggregator_thumbnail_with_text.jpg
