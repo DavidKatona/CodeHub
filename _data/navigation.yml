@@ -1,8 +1,8 @@
 main:
   - title: "Plugins"
     url: /plugins/
-  - title: "Guides"
-    url: /guides/
+  - title: "Posts"
+    url: /posts/
   - title: "Games"
     url: /games/
   - title: "About"
