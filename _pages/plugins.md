@@ -16,7 +16,7 @@ feature_row1:
   - image_path: /assets/images/eventaggregator_thumbnail_with_text.jpg
     alt: "Placeholder Image 01"
     title: "Event Aggregator"
-    excerpt: 'Event Aggregator is a plugin that implements the event aggregator pattern in Unreal Engine. It provides a flexible and efficient mechanism for inter-object communication by decoupling event senders and receivers. With Event Aggregator, you can easily manage and respond to events without direct dependencies between different components, promoting a modular and maintainable codebase.'
+    excerpt: 'The Event Aggregator plugin introduces the powerful Event Aggregator pattern to Unreal Engine, offering an elegant and efficient solution for inter-object communication. By decoupling event senders and receivers, it allows for modular, scalable, and highly maintainable game architecture.'
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
