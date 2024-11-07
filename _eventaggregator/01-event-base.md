@@ -6,12 +6,10 @@ author_profile: false
 toc: true
 ---
 
-## Sample header
+## Class description
 
-Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. 
-Ut eu pariatur aute ea aute excepteur laborum. Esse ea esse excepteur minim mollit qui cillum excepteur ex dolore magna. 
-Labore deserunt fugiat incididunt incididunt sint ea. Consequat dolore aute laboris quis proident quis non et est consectetur ex eiusmod sit culpa.
+UEventBase serves as the base class for events within the Event Aggregator plugin. 
+Project-specific events should derive from this class, allowing each subclass to represent a distinct gameplay event.
 
-### Sample subheader
-
-Tempor velit...
+Additionally, UEventBase can be used as a payload when broadcasting events through the “EventAggregatorSubsystem”. 
+Employing UEventBase as a payload promotes type safety when casting payloads to specific types during event handling.
