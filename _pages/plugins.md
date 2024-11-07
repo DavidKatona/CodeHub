@@ -17,7 +17,7 @@ feature_row1:
     alt: "Placeholder Image 01"
     title: "Event Aggregator"
     excerpt: 'The Event Aggregator plugin introduces the powerful Event Aggregator pattern to Unreal Engine, offering an elegant and efficient solution for inter-object communication. By decoupling event senders and receivers, it allows for modular, scalable, and highly maintainable game architecture.'
-    url: "/eventaggregator/keyclasses/"
+    url: "/eventaggregator/key-classes/"
     btn_label: "Documentation"
     btn_class: "btn--info"
 ---
