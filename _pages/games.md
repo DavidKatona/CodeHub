@@ -3,7 +3,6 @@ title: "Games"
 permalink: /games/
 layout: single
 author_profile: false
-classes: wide
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. 

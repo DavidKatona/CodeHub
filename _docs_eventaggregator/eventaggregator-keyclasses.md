@@ -1,8 +1,6 @@
 ---
-title: "Posts"
-permalink: /posts/
-layout: single
-author_profile: false
+title: "Event Aggregator Documentation"
+permalink: /eventaggregator-keyclasses/
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. 

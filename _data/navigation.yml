@@ -7,3 +7,15 @@ main:
     url: /games/
   - title: "About"
     url: /about/
+
+docs_eventaggregator:
+  - title: "Key Classes & Concepts"
+    children:
+      - title: "UEventAggregatorSubsystem"
+        url: /undefined/
+      - title: "UEventBase"
+        url: /undefined/
+      - title: "UEventAggregatorStatics"
+        url: /undefined/
+      - title: "UEventAggregatorSettings"
+        url: /undefined/
