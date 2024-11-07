@@ -11,11 +11,11 @@ main:
 eventaggregator:
   - title: "Key Classes & Concepts"
     children:
-      - title: "UEventAggregatorSubsystem"
+      - title: "Event Aggregator Subsystem"
         url: /undefined/
-      - title: "UEventBase"
+      - title: "Event Base"
         url: /undefined/
-      - title: "UEventAggregatorStatics"
+      - title: "Event Aggregator Statics"
         url: /undefined/
-      - title: "UEventAggregatorSettings"
+      - title: "Event Aggregator Settings"
         url: /undefined/
