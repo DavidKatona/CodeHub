@@ -17,8 +17,6 @@ and processing specific event types.
 
 ## UEventBase in C++
 
-The base class in C++:
-
 {% highlight c++ %}
 
 UCLASS(BlueprintType, Blueprintable)
@@ -26,7 +24,7 @@ class EVENTAGGREGATOR_API UEventBase : public UObject
 
 {% endhighlight %}
 
-Developers are recommended to inherit from this base class with each subclass representing a distinct gameplay event.
+It is recommended that developers inherit from this base class, with each subclass defining a unique gameplay event.
 
 ## UEventBase in Blueprints
 
