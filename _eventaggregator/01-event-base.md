@@ -1,6 +1,6 @@
 ---
-title: "Key Classes & Concepts"
-permalink: /eventaggregator/key-classes/
+title: "Event Base"
+permalink: /eventaggregator/event-base/
 layout: single
 author_profile: false
 toc: true

@@ -12,10 +12,10 @@ eventaggregator:
   - title: "Key Classes & Concepts"
     children:
       - title: "Event Base"
-        url: /undefined/
+        url: /eventaggregator/event-base/
       - title: "Event Aggregator Subsystem"
-        url: /undefined/
+        url: /eventaggregator/undefined/
       - title: "Event Aggregator Statics"
-        url: /undefined/
+        url: /eventaggregator/undefined/
       - title: "Event Aggregator Settings"
-        url: /undefined/
+        url: /eventaggregator/undefined/
