@@ -8,7 +8,7 @@ main:
   - title: "About"
     url: /about/
 
-docs_eventaggregator:
+eventaggregator:
   - title: "Key Classes & Concepts"
     children:
       - title: "UEventAggregatorSubsystem"

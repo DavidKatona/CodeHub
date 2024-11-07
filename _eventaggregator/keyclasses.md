@@ -1,6 +1,6 @@
 ---
 title: "Key Classes & Concepts"
-permalink: /docs_eventaggregator/eventaggregator-keyclasses/
+permalink: /eventaggregator/keyclasses/
 layout: single
 author_profile: false
 ---
