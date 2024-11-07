@@ -14,12 +14,6 @@ Employing **EventBase** as a payload promotes type safety when casting payloads 
 
 {% highlight c++ %}
 
-/**
- * UEventBase serves as the base class for events within the Event Aggregator plugin. Project-specific events
- * should derive from this class, allowing each subclass to represent a distinct gameplay event.
- * Additionally, UEventBase can be used as a payload when broadcasting events through the 'Event Aggregator Subsystem.'
- * Employing UEventBase as a payload promotes type safety when casting payloads to specific types during event handling.
- */
 UCLASS(BlueprintType, Blueprintable)
 class EVENTAGGREGATOR_API UEventBase : public UObject
 
