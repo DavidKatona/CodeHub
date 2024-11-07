@@ -1,6 +1,8 @@
 ---
-title: "Event Aggregator Documentation"
+title: "Key Classes & Concepts"
 permalink: /eventaggregator-keyclasses/
+layout: single
+author_profile: false
 ---
 
 Tempor velit sint sunt ipsum tempor enim ad qui ullamco. Est dolore anim ad velit duis dolore minim sunt aliquip amet commodo labore. 
