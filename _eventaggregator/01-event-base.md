@@ -33,5 +33,7 @@ Blueprint developers can also utilize `UEventBase` as a foundation for creating 
 ## Binding Information
 
 This class also contains binding information to facilitate debugging, including details like the object bound to the event and the name of the associated function.
+
 It achieves this via a `USTRUCT` called `FEventBindingInfo` which holds the name of the bound object and its associated function.
+
 Additionally, it supports editor integration, allowing new events to be created directly from the context menu in the Content Browser.
