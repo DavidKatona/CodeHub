@@ -86,6 +86,13 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
+# Collections
+collections:
+  eventaggregator:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
 defaults:
   # _posts
   - scope:
@@ -107,11 +114,15 @@ defaults:
       author_profile: true
   # _eventaggregator
   - scope:
-      path: "_eventaggregator"
-      type: pages
+      path: ""
+      type: eventaggregator
     values:
       layout: single
+      read_time: false
       author_profile: false
+      share: false
+      comments: false
+      toc_sticky: true
       sidebar:
         nav: "eventaggregator"
     
