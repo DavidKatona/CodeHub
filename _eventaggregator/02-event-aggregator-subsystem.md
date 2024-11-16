@@ -13,9 +13,27 @@ Key features include functions such as **Bind** and **Unbind**, which streamline
 The subsystem facilitates the observation and dispatch of global events to various objects, actors, and game systems, 
 ensuring *loose coupling* between broadcasters and receivers.
 
+{% highlight c++ %}
+
+UCLASS()
+class EVENTAGGREGATOR_API UEventAggregatorSubsystem : public UGameInstanceSubsystem
+
+{% endhighlight %}
+
 ## Getting the Subsystem in C++
 
-TBA
+To access the subsystem in C++, call its static `Get()` function and provide a valid world context object of type `UObject`.
+
+Here’s an example of retrieving the subsystem by passing in `this`, as called from a `GameMode` class:
+
+{% highlight c++ %}
+
+// Getting the subsystem in C++.
+UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this);
+
+{% endhighlight %}
+
+
 
 ## Getting the Subsystem in Blueprints
 
