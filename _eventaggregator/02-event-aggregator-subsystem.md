@@ -1,5 +1,5 @@
 ---
-title: "Event Base"
+title: "Event Aggregator Subsystem"
 permalink: /eventaggregator/event-aggregator-subsystem/
 layout: single
 author_profile: false
