@@ -14,7 +14,7 @@ eventaggregator:
       - title: "Event Base"
         url: /eventaggregator/event-base/
       - title: "Event Aggregator Subsystem"
-        url: /eventaggregator/undefined/
+        url: /eventaggregator/event-aggregator-subsystem/
       - title: "Event Aggregator Statics"
         url: /eventaggregator/undefined/
       - title: "Event Aggregator Settings"
