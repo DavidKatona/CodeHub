@@ -40,4 +40,4 @@ Once retrieved, you can call any of the subsystem's functions directly within yo
 
 {% include figure popup=true image_path="/assets/images/eventaggregator-get-subsystem-in-bp.png" %}
 
-![image-center](/assets/images/eventaggregator-get-subsystem-in-bp.png){: .align-center}
+![image-center]({{ "/assets/images/eventaggregator-get-subsystem-in-bp.png" | relative_url }}){: .align-center}
