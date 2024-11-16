@@ -9,7 +9,7 @@ main:
     url: /about/
 
 eventaggregator:
-  - title: "Key Classes & Concepts"
+  - title: "Core Classes"
     children:
       - title: "Event Base"
         url: /eventaggregator/event-base/
