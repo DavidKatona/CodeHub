@@ -22,6 +22,10 @@ class EVENTAGGREGATOR_API UEventAggregatorSubsystem : public UGameInstanceSubsys
 
 ## Getting the Subsystem in C++
 
+To access the subsystem in C++, call its static `Get()` function and provide a valid world context object of type `UObject`.
+
+Here’s an example of retrieving the subsystem by passing in `this`, as called from a `GameMode` class:
+
 
 
 ## Getting the Subsystem in Blueprints
