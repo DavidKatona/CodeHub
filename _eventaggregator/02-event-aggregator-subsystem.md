@@ -33,8 +33,6 @@ UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this
 
 {% endhighlight %}
 
-
-
 ## Getting the Subsystem in Blueprints
 
 TBA
