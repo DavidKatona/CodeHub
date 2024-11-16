@@ -38,4 +38,4 @@ UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this
 To access and utilize the subsystem in Blueprints, use the editor-generated getter. 
 Once retrieved, you can call any of the subsystem's functions directly within your Blueprint scripts.
 
-{% include figure popup=true image_path="/assets/images/eventaggregator-get-subsystem-in-bp.png" %}
+![image-center]({{ "/assets/images/eventaggregator-get-subsystem-in-bp.png" | relative_url }}){: .align-center}
