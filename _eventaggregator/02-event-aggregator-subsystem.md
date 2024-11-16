@@ -28,7 +28,7 @@ Here’s an example of retrieving the subsystem by passing in `this`, as called fr
 
 {% highlight c++ %}
 
-// Getting the subsystem in C++.
+Getting the subsystem in C++.
 UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this);
 
 {% endhighlight %}
