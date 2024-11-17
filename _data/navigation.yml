@@ -19,35 +19,50 @@ eventaggregator:
         url: /eventaggregator/event-aggregator-statics/
       - title: "Event Aggregator Settings"
         url: /eventaggregator/event-aggregator-settings/
-  - title: "Creating Events"
+  - title: "Working with Events"
     children:
-      - title: "Events in C++"
-        url: /eventaggregator/events-in-cpp/
-      - title: "Events in Blueprints"
-        url: /eventaggregator/events-in-blueprints/
-      - title: "Suggested Naming"
-        url: /eventaggregator/suggested-naming/
-  - title: "Binding Events"
-    children:
-      - title: "Binding Events in C++"
+      - title: "Creating Events"
         url: /eventaggregator/undefined/
-      - title: "Binding Events in Blueprints"
+      - title: "Binding Events"
         url: /eventaggregator/undefined/
-  - title: "Unbinding Events"
-    children:
-      - title: "Unbinding Events in C++"
+      - title: "Unbinding Events"
         url: /eventaggregator/undefined/
-      - title: "Unbinding Events in Blueprints"
+      - title: "Clearing Events"
         url: /eventaggregator/undefined/
-  - title: "Clearing Events"
-    children:
-      - title: "Clearing Events in C++"
+      - title: "Broadcasting Events"
         url: /eventaggregator/undefined/
-      - title: "Clearing Events in Blueprints"
+      - title: "Parameterized Events"
         url: /eventaggregator/undefined/
-  - title: "Broadcasting Events"
-    children:
-      - title: "Broadcasting Events in C++"
-        url: /eventaggregator/undefined/
-      - title: "Broadcasting Events in Blueprints"
-        url: /eventaggregator/undefined/
+
+  #- title: "Creating Events"
+  #  children:
+  #    - title: "Events in C++"
+  #      url: /eventaggregator/events-in-cpp/
+  #    - title: "Events in Blueprints"
+  #      url: /eventaggregator/events-in-blueprints/
+  #    - title: "Suggested Naming"
+  #      url: /eventaggregator/suggested-naming/
+  #- title: "Binding Events"
+  #  children:
+  #    - title: "Binding Events in C++"
+  #      url: /eventaggregator/undefined/
+  #    - title: "Binding Events in Blueprints"
+  #      url: /eventaggregator/undefined/
+  #- title: "Unbinding Events"
+  #  children:
+  #    - title: "Unbinding Events in C++"
+  #      url: /eventaggregator/undefined/
+  #    - title: "Unbinding Events in Blueprints"
+  #      url: /eventaggregator/undefined/
+  #- title: "Clearing Events"
+  #  children:
+  #    - title: "Clearing Events in C++"
+  #      url: /eventaggregator/undefined/
+  #    - title: "Clearing Events in Blueprints"
+  #      url: /eventaggregator/undefined/
+  #- title: "Broadcasting Events"
+  #  children:
+  #    - title: "Broadcasting Events in C++"
+  #      url: /eventaggregator/undefined/
+  #    - title: "Broadcasting Events in Blueprints"
+  #      url: /eventaggregator/undefined/
