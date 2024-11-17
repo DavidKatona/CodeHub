@@ -41,7 +41,7 @@ eventaggregator:
         url: /eventaggregator/undefined/
       - title: "Logging"
         url: /eventaggregator/undefined/
-  - title: "Recommendations"
+  - title: "Extras"
     children:
-      - title: "Development Recommendations"
+      - title: "Recommendations"
         url: /eventaggregator/undefined/
