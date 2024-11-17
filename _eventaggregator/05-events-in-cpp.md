@@ -12,7 +12,7 @@ This approach helps differentiate between various events and allows for the addi
 For instance, in a shooter game, you may want to create a gameplay event that broadcasts whenever your character takes damage 
 (e.g., from a bullet). This allows UI widgets to react, such as by updating the character's health display.
 
-## Creating the C++ event via the Editor
+## Creating a C++ event via the Editor
 
 To create an event in C++ via the **Editor**, do the following:
 
