@@ -20,7 +20,7 @@ To create an event in C++ via the **Editor**, do the following:
 
 ![image-center]({{ "/assets/images/native-events-create-step01.png" | relative_url }}){: .align-center}
 
-2. From the dropdown, select and click `New C++ Class…`.
+2. From the dropdown, select and click `New C++ Class...`.
 3. A window called `Add C++ Class` will open. Click on `All Classes`.
 
 ![image-center]({{ "/assets/images/native-events-create-step02.png" | relative_url }}){: .align-center}
