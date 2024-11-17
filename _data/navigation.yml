@@ -35,9 +35,9 @@ eventaggregator:
         url: /eventaggregator/undefined/
       - title: "Events by Gameplay Tag or Name"
         url: /eventaggregator/undefined/
-  - title: "Debug Tools"
+  - title: "Debugging & Recommendations"
     children:
       - title: "Gameplay Debugger"
         url: /eventaggregator/undefined/
-      - title: "Logging"
+      - title: "Recommendations for Development"
         url: /eventaggregator/undefined/
