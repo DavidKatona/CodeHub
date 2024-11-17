@@ -33,3 +33,11 @@ eventaggregator:
         url: /eventaggregator/undefined/
       - title: "Parameterized Events"
         url: /eventaggregator/undefined/
+      - title: "Events by Gameplay Tag or Name"
+        url: /eventaggregator/undefined/
+  - title: "Debug Tools"
+    children:
+      - title: "Gameplay Debugger"
+        url: /eventaggregator/undefined/
+      - title: "Logging"
+        url: /eventaggregator/undefined/
