@@ -6,9 +6,9 @@ author_profile: false
 toc: false
 ---
 
-**Event Aggregator Settings** defines a `UObject` settings object for the **Event Aggregator** plugin, allowing users
-to customize various aspects of the plugin's behaviour. These settings include debug and general configurations that
-users can modify to tailor the plugin to their specific needs.
+**Event Aggregator Settings** defines a `UObject` settings object for the **Event Aggregator** plugin, allowing you
+to customize various aspects of the plugin's behaviour. These settings include debug and general configurations you 
+can modify to tailor the plugin to your specific needs.
 
 {% highlight c++ %}
 
