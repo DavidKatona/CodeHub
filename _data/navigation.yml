@@ -22,7 +22,7 @@ eventaggregator:
   - title: "Working with Events"
     children:
       - title: "Creating Events"
-        url: /eventaggregator/undefined/
+        url: /eventaggregator/creating-events/
       - title: "Binding Events"
         url: /eventaggregator/undefined/
       - title: "Unbinding Events"
@@ -33,36 +33,3 @@ eventaggregator:
         url: /eventaggregator/undefined/
       - title: "Parameterized Events"
         url: /eventaggregator/undefined/
-
-  #- title: "Creating Events"
-  #  children:
-  #    - title: "Events in C++"
-  #      url: /eventaggregator/events-in-cpp/
-  #    - title: "Events in Blueprints"
-  #      url: /eventaggregator/events-in-blueprints/
-  #    - title: "Suggested Naming"
-  #      url: /eventaggregator/suggested-naming/
-  #- title: "Binding Events"
-  #  children:
-  #    - title: "Binding Events in C++"
-  #      url: /eventaggregator/undefined/
-  #    - title: "Binding Events in Blueprints"
-  #      url: /eventaggregator/undefined/
-  #- title: "Unbinding Events"
-  #  children:
-  #    - title: "Unbinding Events in C++"
-  #      url: /eventaggregator/undefined/
-  #    - title: "Unbinding Events in Blueprints"
-  #      url: /eventaggregator/undefined/
-  #- title: "Clearing Events"
-  #  children:
-  #    - title: "Clearing Events in C++"
-  #      url: /eventaggregator/undefined/
-  #    - title: "Clearing Events in Blueprints"
-  #      url: /eventaggregator/undefined/
-  #- title: "Broadcasting Events"
-  #  children:
-  #    - title: "Broadcasting Events in C++"
-  #      url: /eventaggregator/undefined/
-  #    - title: "Broadcasting Events in Blueprints"
-  #      url: /eventaggregator/undefined/
