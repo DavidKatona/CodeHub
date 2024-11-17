@@ -23,4 +23,3 @@ To create an event blueprint, do the following:
 ![image-center]({{ "/assets/images/blueprint-events-create-step02.png" | relative_url }}){: .align-center}
 7. Once you have the parent class selected, hit `Select`.
 8. After you have confirmed your selection, name your event in the `Content Browser`.
-![image-center]({{ "/assets/images/blueprint-events-create-step03.png" | relative_url }}){: .align-center}
