@@ -27,3 +27,27 @@ eventaggregator:
         url: /eventaggregator/events-in-blueprints/
       - title: "Suggested Naming"
         url: /eventaggregator/suggested-naming/
+  - title: "Binding Events"
+    children:
+      - title: "Binding Events in C++"
+        url: /eventaggregator/undefined/
+      - title: "Binding Events in Blueprints"
+        url: /eventaggregator/undefined/
+  - title: "Unbinding Events"
+    children:
+      - title: "Unbinding Events in C++"
+        url: /eventaggregator/undefined/
+      - title: "Unbinding Events in Blueprints"
+        url: /eventaggregator/undefined/
+  - title: "Clearing Events"
+    children:
+      - title: "Clearing Events in C++"
+        url: /eventaggregator/undefined/
+      - title: "Clearing Events in Blueprints"
+        url: /eventaggregator/undefined/
+  - title: "Broadcasting Events"
+    children:
+      - title: "Broadcasting Events in C++"
+        url: /eventaggregator/undefined/
+      - title: "Broadcasting Events in Blueprints"
+        url: /eventaggregator/undefined/
