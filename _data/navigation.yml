@@ -19,3 +19,11 @@ eventaggregator:
         url: /eventaggregator/event-aggregator-statics/
       - title: "Event Aggregator Settings"
         url: /eventaggregator/event-aggregator-settings/
+  - title: "Creating Events"
+    children:
+      - title: "Events in C++"
+        url: /eventaggregator/events-in-cpp/
+      - title: "Events in Blueprints"
+        url: /eventaggregator/undefined/
+      - title: "Suggested Naming Convention"
+        url: /eventaggregator/undefined/
