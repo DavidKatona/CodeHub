@@ -25,5 +25,5 @@ eventaggregator:
         url: /eventaggregator/events-in-cpp/
       - title: "Events in Blueprints"
         url: /eventaggregator/events-in-blueprints/
-      - title: "Suggested Naming Convention"
-        url: /eventaggregator/undefined/
+      - title: "Suggested Naming"
+        url: /eventaggregator/suggested-naming/
