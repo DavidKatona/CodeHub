@@ -3,7 +3,7 @@ title: "Events in Blueprints"
 permalink: /eventaggregator/events-in-blueprints/
 layout: single
 author_profile: false
-toc: false
+toc: true
 ---
 
 If you prefer to define your events in blueprints you can do so simply via the `Content Browser`, 

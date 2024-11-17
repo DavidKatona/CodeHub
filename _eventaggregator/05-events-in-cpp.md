@@ -3,7 +3,7 @@ title: "Events in C++"
 permalink: /eventaggregator/events-in-cpp/
 layout: single
 author_profile: false
-toc: false
+toc: true
 ---
 
 For each **gameplay** or **global** event you wish to broadcast, it is advisable to create a distinct subclass of `UEventBase`. 
