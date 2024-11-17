@@ -12,4 +12,4 @@ death of a character, consider a name that clearly conveys this purpose, such as
 It would also be beneficial to prefix your events with something that can be searched for easily in the content browser, 
 for example `EBP_`. So for example, `EBP_OnCharacterDied`. *(EBP stands for Event Blueprint)*
 
-Feel free to adjust naming conventions to your projects’ needs!
+Feel free to adjust naming conventions to your projects' needs!
