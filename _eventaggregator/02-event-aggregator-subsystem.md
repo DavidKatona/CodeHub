@@ -26,9 +26,12 @@ To access the subsystem in C++, call its static `Get` function and provide a val
 
 Here's an example of retrieving the subsystem by passing in `this`, as called from a `GameMode` class:
 
-```c++
-// Getting the subsystem in C++.
-UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this);
+```css
+#container {
+  float: left;
+  margin: 0 -240px 0 0;
+  width: 100%;
+}
 ```
 
 {% highlight c++ %}
