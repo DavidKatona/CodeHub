@@ -34,3 +34,5 @@ Binding events in blueprints is similar to how you would handle them in C++. Unr
 
 To bind an event in blueprints, do the following:
 
+1. Retrieve the *Event Aggregator Subsystem* (right click in the *Event Graph* and search for *Event Aggregator*).
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp01.png" | relative_url }}){: .align-center}
