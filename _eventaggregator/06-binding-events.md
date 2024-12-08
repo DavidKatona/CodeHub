@@ -45,8 +45,6 @@ EventAggregator->BindGlobalEventByClass(UOnCharacterDamagedNative::StaticClass()
 
 {% endhighlight %}
 
-![image-center]({{ "/assets/images/event-aggregator/binding-events-in-cpp05.png" | relative_url }}){: .align-center}
-
 ## Binding events in Blueprints
 
 Binding events in blueprints is similar to how you would handle them in C++. Unreal, however, makes it a bit easier with the helpers it provides in blueprint event graphs.
