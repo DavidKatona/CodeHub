@@ -24,7 +24,7 @@ eventaggregator:
       - title: "Creating Events"
         url: /eventaggregator/creating-events/
       - title: "Binding Events"
-        url: /eventaggregator/undefined/
+        url: /eventaggregator/binding-events/
       - title: "Unbinding Events"
         url: /eventaggregator/undefined/
       - title: "Clearing Events"
