@@ -16,9 +16,6 @@ To bind an event in C++, you will have to retrieve the "Event Aggregator Subsyst
 
 1. Retrieve the **Event Aggregator Subsystem** by using its static getter: `UEventAggregatorSubsystem::Get()`.
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-cpp01.png" | relative_url }}){: .align-center}
-*Make sure you pass a valid 'WorldContextObject', otherwise the Get() operation will fail!*
-
-*You will also want to have `EventAggregator.h` included in the file where you wish to use the subsystem. Use the include below!*
+*You will need to include `EventAggregator.h` in the file you wish to use the subsystem. Use the include below!*
 **#include "System/EventAggregatorSubsystem.h"**
-
 2. Declare a variable of type `FOnGlobalEventBroadcastedSignature`.
