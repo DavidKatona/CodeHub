@@ -48,8 +48,8 @@ To bind an event in blueprints, do the following:
 7. Drag another node from the `In Event` parameter of the function then type `Create Event` in the search bar.
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp05.png" | relative_url }}){: .align-center}
 8. Click `Create Event`.
-9. Click the `Select Function…` dropdown on the node and select the function you wish to bind to the event. 
-Usually this will be `Create a matching function…` or `Create a matching event…`, whichever you prefer, 
+9. Click the `Select Function...` dropdown on the node and select the function you wish to bind to the event. 
+Usually this will be `Create a matching function...` or `Create a matching event...`, whichever you prefer, 
 or in case you already have a function with a matching signature, you can select that one as well.
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp06.png" | relative_url }}){: .align-center}
 10. With everything set up, you will have something like this:
