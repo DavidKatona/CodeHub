@@ -15,10 +15,6 @@ For example, in your UI or HUD, you might bind an "OnCharacterDamaged" event, so
 To bind an event in C++, you will have to retrieve the "Event Aggregator Subsystem", then use its functions to set up the event binding.
 
 1. Retrieve the **Event Aggregator Subsystem** by using its static getter: `UEventAggregatorSubsystem::Get()`.
-{% highlight c++ %}
-// Getting the subsystem in C++.
-UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this);
-{% endhighlight %}
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-cpp01.png" | relative_url }}){: .align-center}
 2. Add the following include to the top of your file: **#include "System/EventAggregatorSubsystem.h"**
 3. Declare a variable of type `FOnGlobalEventBroadcastedSignature`.
@@ -30,6 +26,25 @@ UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-cpp04.png" | relative_url }}){: .align-center}
 
 When put together, you should have something like this:
+
+{% highlight c++ %}
+
+// Getting the subsystem in C++.
+UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this);
+
+check(EventAggregator);
+
+// Declare an event (FOnGlobalEventBroadcastedSignature is accessible from UEventAggregatorSubsystem.h).
+FOnGlobalEventBroadcastedSignature CharacterDamagedEvent;
+
+// Make sure to bind the event first.
+CharacterDamagedEvent.BindDynamic(this, &ThisClass::HandleOnCharacterDamagedNative);
+
+// Then pass it to the Event Aggregator like so (this will bind the single-cast delegate you've created above to the global event).
+EventAggregator->BindGlobalEventByClass(UOnCharacterDamagedNative::StaticClass(), true, CharacterDamagedEvent);
+
+{% endhighlight %}
+
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-cpp05.png" | relative_url }}){: .align-center}
 
 ## Binding events in Blueprints
