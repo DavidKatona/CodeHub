@@ -34,5 +34,23 @@ Binding events in blueprints is similar to how you would handle them in C++. Unr
 
 To bind an event in blueprints, do the following:
 
-1. Retrieve the *Event Aggregator Subsystem* (right click in the *Event Graph* and search for *Event Aggregator*).
+1. Retrieve the **Event Aggregator Subsystem** (right click in the `Event Graph` and search for `Event Aggregator`).
 ![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp01.png" | relative_url }}){: .align-center}
+2. Select "Get EventAggregatorSubsystem" from the list of actions.
+3. Drag a new node from the `Return Value` pin of the "Event Aggregator Subsystem Node" and type `Bind` in the search bar:
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp02.png" | relative_url }}){: .align-center}
+4. Select `Bind Global Event by Class`.
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp03.png" | relative_url }}){: .align-center}
+5. Make sure to select an `In Event Class` on the newly dragged out node in the graph.
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp04.png" | relative_url }}){: .align-center}
+6. Select the event you wish to bind to, then tick `Bind Unique` if you want to ensure that this is a unique binding.
+*Unique binding means that if the same function from the same object has been bound already to the event, it won't bind it again.*
+7. Drag another node from the `In Event` parameter of the function then type `Create Event` in the search bar.
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp05.png" | relative_url }}){: .align-center}
+8. Click `Create Event`.
+9. Click the `Select Function…` dropdown on the node and select the function you wish to bind to the event. 
+Usually this will be `Create a matching function…` or `Create a matching event…`, whichever you prefer, 
+or in case you already have a function with a matching signature, you can select that one as well.
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp06.png" | relative_url }}){: .align-center}
+10. With everything set up, you will have something like this:
+![image-center]({{ "/assets/images/event-aggregator/binding-events-in-bp07.png" | relative_url }}){: .align-center}
