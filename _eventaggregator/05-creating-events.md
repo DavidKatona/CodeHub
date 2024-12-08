@@ -17,12 +17,6 @@ For instance, in a shooter game, you may want to create a gameplay event that br
 To create an event in C++ via the **Editor**, do the following:
 
 1. Find and click the `Tools` option at the top-left hand corner of the Editor.
-{% highlight c++ %}
-
-	// Getting the subsystem in C++.
-	UEventAggregatorSubsystem* EventAggregator = UEventAggregatorSubsystem::Get(this);
-
-{% endhighlight %}
 ![image-center]({{ "/assets/images/native-events-create-step01.png" | relative_url }}){: .align-center}
 2. From the dropdown, select and click `New C++ Class...`.
 3. A window called `Add C++ Class` will open. Click on `All Classes`.
